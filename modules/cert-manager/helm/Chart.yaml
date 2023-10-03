@@ -1,0 +1,8 @@
+apiVersion: v2
+name: Cert-Manager-Chart
+description: A Helm chart for Kubernetes cert-manager with letsencrypt
+
+type: application
+
+version: "1.0"
+appVersion: "1.0"
