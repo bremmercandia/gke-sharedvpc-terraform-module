@@ -22,7 +22,7 @@ module "ingress-nginx" {
 # #================================================================================
 module "sample-app" {
   source   = "../sample-nginx-app/"
-  hostname = "gke-ma-labs.pmweb.com.br"  
+  hostname = "gke-ma-labs.domain.com.br"  
   depends_on = [
     module.ingress-nginx,
     module.certmanager

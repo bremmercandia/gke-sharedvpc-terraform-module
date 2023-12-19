@@ -35,8 +35,8 @@
 
 #To attach a first service project with host project 
 resource "google_compute_shared_vpc_service_project" "shared-vpc-link-projects" {
-  host_project    = "pmwebcdp"
-  service_project = "pmweb-infra"
+  host_project    = "host-sampleproject"
+  service_project = "service-sampleproject"
 }
 
 # # # Shared Network to attach 
